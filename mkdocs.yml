@@ -1,0 +1,38 @@
+site_name: Atlas
+repo_url: https://github.com/GreenOpsInc/atlas
+theme:
+  name: material
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed
+nav:
+  - 'index.md'
+  - 'argo-comparisons.md'
+  - 'core-concepts.md'
+  - 'getting-started.md'
+  - 'Build Book':
+    - 'buildbook/step.md'
+    - 'buildbook/pipeline.md'
+    - 'buildbook/argocd.md'
+    - 'buildbook/sync-configs.md'
+  - 'User/Management Guide':
+    - 'userguide/cluster.md'
+    - 'userguide/team.md'
+    - 'userguide/pipeline.md'
+    - 'userguide/stability.md'
+    - 'userguide/audit.md'
+    - 'userguide/management.md'
+    - 'userguide/security.md'
+    - 'Command Reference':
+      - 'userguide/commandreference/atlas.md'
+      - 'userguide/commandreference/team.md'
+      - 'userguide/commandreference/pipeline.md'
+      - 'userguide/commandreference/status.md'
+      - 'userguide/commandreference/cluster.md'
+  - 'Task/Test Registry':
+    - 'tasktestregistry/overview.md'
+    - 'tasktestregistry/contributing.md'
+    - 'tasktestregistry/scriptinjection.md'
+    - 'tasktestregistry/k8sjob.md'
+    - 'tasktestregistry/workflows.md'
+  - 'roadmap.md'
