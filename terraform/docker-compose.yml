@@ -1,0 +1,10 @@
+services:
+  terraform:
+    image: hashicorp/terraform:latest
+    volumes:
+      - .:/workspace
+      - ./secrets:/secrets
+    env_file:
+      - .env.example
+    working_dir: /workspace
+    command: "apply"
