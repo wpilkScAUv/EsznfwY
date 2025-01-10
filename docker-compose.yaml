@@ -1,0 +1,35 @@
+version: '3.7'
+
+volumes:
+    prometheus_data: {}
+    grafana_data: {}
+
+services:
+  prometheus:
+    image: prom/prometheus:v2.1.0
+    volumes:
+      - ./prometheus.yaml:/etc/prometheus/prometheus.yaml
+      - ./alert_rules.yaml:/etc/prometheus/alert_rules.yaml
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yaml'
+    ports:
+      - '9090:9090'
+  grafana:
+    image: grafana/grafana
+    volumes:
+        - grafana_data:/var/lib/grafana
+        - ./grafana.json:/etc/grafana/grafana.json
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=pass
+    depends_on:
+      - prometheus
+    ports:
+      - '3000:3000'
+  web:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/sample_crawler
+    depends_on:
+      - prometheus
