@@ -1,0 +1,5 @@
+**/*
+!*.msi
+!*.dmg
+!*.deb
+!manifest.*
