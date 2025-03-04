@@ -1,0 +1,49 @@
+# global lab config, after board's .labinit, .labconfig, Makefile, .labcustom and .labfini
+# it can use the board specific variables, to custom for all boards, please add one .labcustom
+
+# FIXME: Workaround make tool update after commit: 31110ebbec8688c6e9597b641101afc94e1c762a
+# make-3.81 may be not available in the future, download and install it as /usr/bin/make-3.81
+# http://cn.archive.ubuntu.com/ubuntu/pool/main/m/make-dfsg/make_3.81-8.2ubuntu3_amd64.deb
+
+# It is able to use $(MAKE) directly without the requirement of update-alternative, although
+# we already support that method, the 'update-alternative' method may change the whole setting, which is not our requirement.
+
+MAKE := make
+MAKE[LINUX_$(call _any,LINUX,<=,v2.6.29)] := make-3.81
+ifeq ($(wildcard /usr/bin/make-3.81),)
+  PKGS[LINUX_$(call _any,LINUX,<=,v2.6.29)] := make;http://cn.archive.ubuntu.com/ubuntu/pool/main/m/make-dfsg/make_3.81-8.2ubuntu3_amd64.deb;3.81
+endif
+
+# Packages required by qemu
+ifneq ($(QEMU),)
+ ifneq ($(findstring xqemu, x$(MAKECMDGOALS)),)
+  # Newer Qemu requires ninja
+  ifeq ($(wildcard /usr/bin/ninja),)
+    PKGS[QEMU_$(call _any,QEMU,>=,v6.0.0)] := ninja;ninja-build
+  endif
+  ifeq ($(wildcard /usr/bin/pyvenv),)
+    PKGS[QEMU_$(call _any,QEMU,>=,v8.0.1)] += python3-venv
+  endif
+
+  # Install all required libraries if QEMU_FULL=1 specified
+  ifeq ($(QEMU_FULL),1)
+    PKGS[QEMU_$(call _any,QEMU,>=,v6.0.0)] += $(foreach lib,libaio-dev libbluetooth-dev libcapstone-dev libbrlapi-dev libbz2-dev libcap-ng-dev libcurl4-gnutls-dev libgtk-3-dev libibverbs-dev libjpeg8-dev libncurses5-dev libnuma-dev librbd-dev librdmacm-dev libsasl2-dev libsdl2-dev libseccomp-dev libsnappy-dev libssh-dev libvde-dev libvdeplug-dev libvte-2.91-dev libxen-dev liblzo2-dev,lib;$(lib))
+  endif
+ endif
+endif
+
+# With tmux, the Linux kernel can be debugged in the CLI
+ifneq ($(findstring debug,$(firstword $(MAKECMDGOALS)))),)
+  ifeq ($(wildcard /usr/bin/tmux),)
+    PKGS += tmux
+  endif
+endif
+
+# gcc 4.3 must work with 2.24 binutils (ld), otherwise, the kernel compiled not boot
+# LS is a predefined variable, use LDT (ld tool) instead here
+ifeq ($(CCORI),internal)
+ ifeq ($(ARCH),arm)
+  LDT := 2.34
+  LDT[GCC_4.3]  ?= 2.24
+ endif
+endif
