@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ecom-microservices-config
+data:
+  ecommerce.api.baseUrl: "https://api.ecommerce.com"
+  ecommerce.support.email: "support@ecommerce.com"
+  ecommerce.support.phone: "+1234567890"
