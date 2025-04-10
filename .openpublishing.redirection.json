@@ -1,0 +1,2989 @@
+{
+   "redirections": [
+      {
+         "source_path": "docs/scenarios/azure-hpc/energy/azure-billing-active-directory-tenant.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-hpc/",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/azure-hpc/finance/azure-billing-active-directory-tenant.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-hpc/",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/azure-hpc/manufacturing/azure-billing-active-directory-tenant.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-hpc/",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/hybrid/server/best-practices/arc-vm-extension-mma.md",
+         "redirect_url": "/azure/azure-arc/servers/manage-vm-extensions-template",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/hybrid/server/best-practices/arc-vm-extension-custom-script.md",
+         "redirect_url": "/azure/azure-arc/servers/manage-vm-extensions",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/hybrid/server/best-practices/arc-update-management.md",
+         "redirect_url": "/azure/automation/update-management/overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/hybrid/server/best-practices/arc-azure-sentinel.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/hybrid/scenario-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/hybrid/server/best-practices/arc-inventory-tagging.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/hybrid/scenario-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/hybrid/server/best-practices/arc-policies-mma.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/hybrid/scenario-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/hybrid/server/best-practices/arc-security-center.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/hybrid/scenario-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/hybrid/server/best-practices/arm-template-linux.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/hybrid/scenario-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/hybrid/server/best-practices/arm-template-windows.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/hybrid/scenario-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/hybrid/server/best-practices/aws-scale-ansible.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/hybrid/scenario-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/hybrid/server/best-practices/aws-terraform-al2.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/hybrid/scenario-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/hybrid/server/best-practices/aws-terraform-ubuntu.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/hybrid/scenario-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/hybrid/server/best-practices/gcp-terraform-ubuntu.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/hybrid/scenario-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/hybrid/server/best-practices/gcp-terraform-windows.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/hybrid/scenario-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/hybrid/server/best-practices/local-vagrant-ubuntu.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/hybrid/scenario-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/hybrid/server/best-practices/local-vagrant-windows.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/hybrid/scenario-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/hybrid/server/best-practices/onboard-server-linux.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/hybrid/scenario-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/hybrid/server/best-practices/onboard-server-windows.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/hybrid/scenario-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/hybrid/server/best-practices/vmware-scaled-powercli-linux.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/hybrid/scenario-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/hybrid/server/best-practices/vmware-scaled-powercli-windows.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/hybrid/scenario-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/hybrid/server/best-practices/vmware-terraform-ubuntu.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/hybrid/scenario-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/hybrid/server/best-practices/vmware-terraform-windows.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/hybrid/scenario-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/hybrid/server/best-practices/vmware-ubuntu-template.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/hybrid/scenario-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/hybrid/server/best-practices/vmware-windows-template.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/hybrid/scenario-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/get-started/help.md",
+         "redirect_url": "/azure/cloud-adoption-framework/get-started/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/get-started/team/central-it.md",
+         "redirect_url": "/azure/cloud-adoption-framework/organize/central-it",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/appendix/cloud-operating-model.md",
+         "redirect_url": "/azure/cloud-adoption-framework/operating-model/index",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/appendix/roadmap.md",
+         "redirect_url": "/azure/cloud-adoption-framework/overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/business-strategy/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy/index",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/governance/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/governance/benchmark.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/benchmark",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/governance/best-practices.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/guides/index",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/governance/corporate-policy.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/corporate-policy",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/governance/deployment-acceleration/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/governance/getting-started.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/governance/governance-disciplines.md",
+         "redirect_url": "azure/cloud-adoption-framework/govern/governance-disciplines",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/governance/journeys/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/governance/resource-consistency/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-resource-management-governance",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/governance/security-baseline/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/security-baseline/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/organization/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/organize/index",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/reference/roadmap.md",
+         "redirect_url": "/azure/cloud-adoption-framework/overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/expanded-scope/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/azure-best-practices/index",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/strategy/financial-models.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy/cloud-migration-business-case",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/strategy/first-adoption-project.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy/motivations",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/contoso-migration-assessment.md",
+         "redirect_url": "/azure/cloud-adoption-framework/plan/contoso-migration-assessment",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/migrate/expanded-scope/balance-the-portfolio.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy/balance-the-portfolio",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/initial-org-alignment.md",
+         "redirect_url": "/azure/cloud-adoption-framework/plan/initial-org-alignment",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/considerations/naming-and-tagging.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/considerations/scaling-subscriptions.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/azure-best-practices/scaling-subscriptions",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/azure-best-practices/scaling-subscriptions.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/azure-best-practices/scale-subscriptions",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/considerations/compute-decisions.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/considerations/compute-options",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/considerations/data-decisions.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/considerations/data-options",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/considerations/network-decisions.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/considerations/networking-options",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/considerations/storage-guidance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/considerations/storage-options",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/azure-best-practices/roles.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/considerations/roles",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/infrastructure/misc/hybrid-consistency.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/hybrid/plan",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/infrastructure/virtual-machines/basic-workload.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/reference/azure-scaffold-examples.md",
+         "redirect_url": "/azure/cloud-adoption-framework/reference/azure-scaffold",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/reference/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/getting-started/whats-new",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/azure-readiness-guide/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/azure-setup-guide/index",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/azure-readiness-guide/govern-org-compliance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/azure-setup-guide/govern-org-compliance",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/azure-readiness-guide/manage-access.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/azure-setup-guide/manage-access",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/azure-readiness-guide/manage-costs.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/azure-setup-guide/manage-costs",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/azure-readiness-guide/migration-landing-zone.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/azure-setup-guide/migration-landing-zone",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/azure-readiness-guide/monitoring-reporting.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/azure-setup-guide/monitoring-reporting",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/azure-readiness-guide/organize-resources.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/azure-setup-guide/organize-resources",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/azure-readiness-guide/staying-current.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/azure-setup-guide/staying-current",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/migrate/azure-migration-guide/organize-resources.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/azure-migration-guide/index",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/migrate/azure-migration-guide/secure-and-manage.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/azure-migration-guide/migrate",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-migration-guide/prerequisites.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/azure-migration-guide/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/security-baseline/cloud-security-baseline.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/security-baseline/index",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/secure-and-manage/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/about",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/azure-setup-guide/migration-landing-zone.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/migrate-landing-zone",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/technical-skills.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/suggested-skills",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/migrate/expanded-scope/sql-migration.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/azure-best-practices/sql-migration",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/migrate/expanded-scope/vmware-host.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/azure-best-practices/vmware-host",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/migrate/expanded-scope/suggested-skills.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/prepare/skills-support",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/migrate/expanded-scope/multiple-datacenters.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/prepare/migrate-from-multiple-datacenters",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/migrate/expanded-scope/governance-or-compliance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/azure-best-practices/governance-or-compliance",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/migrate/expanded-scope/network-capacity-exceeded.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/deploy/replicate",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/migrate/about.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/index",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/getting-started/enable.md",
+         "redirect_url": "/azure/cloud-adoption-framework/get-started/enable",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/getting-started/innovate.md",
+         "redirect_url": "/azure/cloud-adoption-framework/get-started/innovate",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/innovate/ai/conversational-ai.md",
+         "redirect_url": "/azure/cloud-adoption-framework/innovate/best-practices/conversational-ai",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/getting-started/migrate.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/contoso-migration-rds-to-azure-virtual-desktop.md",
+         "redirect_url": "/azure/virtual-desktop/overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/contoso-migration-vmware-to-azure.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-vmware/index",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/getting-started/whats-new.md",
+         "redirect_url": "/azure/cloud-adoption-framework/get-started/whats-new",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/getting-started/what-is-azure.md",
+         "redirect_url": "/azure/cloud-adoption-framework/get-started/what-is-azure",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/getting-started/index.yml",
+         "redirect_url": "/azure/cloud-adoption-framework/get-started/index",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/landing-zone/first-landing-zone.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/organize/cloud-security-apsec-devsecops.md",
+         "redirect_url": "/azure/cloud-adoption-framework/organize/cloud-security-application-security-devsecops",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/get-started/blockers-overview.md",
+         "redirect_url": "/azure/cloud-adoption-framework/get-started/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/get-started/operating-model-overview.md",
+         "redirect_url": "/azure/cloud-adoption-framework/get-started/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/get-started/team/cloud-migration.md",
+         "redirect_url": "/azure/cloud-adoption-framework/get-started/team/cloud-adoption",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/get-started/team-roadmap-overview.md",
+         "redirect_url": "/azure/cloud-adoption-framework/get-started/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/get-started/central-it.md",
+         "redirect_url": "/azure/cloud-adoption-framework/get-started/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/get-started/cloud-automation.md",
+         "redirect_url": "/azure/cloud-adoption-framework/get-started/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/get-started/cloud-center-of-excellence.md",
+         "redirect_url": "/azure/cloud-adoption-framework/get-started/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/get-started/cloud-migration.md",
+         "redirect_url": "/azure/cloud-adoption-framework/get-started/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/get-started/cloud-platform.md",
+         "redirect_url": "/azure/cloud-adoption-framework/get-started/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/monitor/alerting.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/monitor/response",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/ready/considerations/enterprise-scale.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/enterprise-scale",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/landing-zone/enterprise-scale.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/enterprise-scale/index",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/enterprise-scale/implementation-guidelines.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/enterprise-scale/implementation",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/considerations/basic-considerations.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/#azure-landing-zone-conceptual-architecture",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/ready/considerations/compute-options.md",
+         "redirect_url": "/azure/architecture/guide/technology-choices/compute-decision-tree",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/ready/azure-best-practices/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/design-areas",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/enterprise-scale/architecture.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/index",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/enterprise-scale/design-guidelines.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/design-areas",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/ready/enterprise-scale/enterprise-enrollment-and-azure-ad-tenants.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/design-area/azure-billing-ad-tenant",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/enterprise-scale/identity-and-access-management.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/design-area/identity-access",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/enterprise-scale/management-group-and-subscription-organization.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/design-area/resource-org",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/enterprise-scale/management-and-monitoring.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/design-area/management",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/enterprise-scale/business-continuity-and-disaster-recovery.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/design-area/management-business-continuity-disaster-recovery",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/enterprise-scale/security-governance-and-compliance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/design-area/governance",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/enterprise-scale/platform-automation-and-devops.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/design-area/platform-automation-devops",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/scenarios/lamp/moodle/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/lamp/moodle/migration-overview",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/scenarios/lamp/moodle/vpn-gateway.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/lamp/moodle/migration-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/ready/azure-best-practices/connectivity-to-other-cloud-providers.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/azure-best-practices/connectivity-to-other-providers",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/security/security-top-10.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure/overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/secure/security-top-10.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure/overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/reference/azure-scaffold.md",
+         "redirect_url": "/azure/cloud-adoption-framework/resources/azure-scaffold",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/reference/cloud-operating-model.md",
+         "redirect_url": "/azure/cloud-adoption-framework/resources/cloud-operating-model",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/scenarios/wvd/design-area-enterprise-enrollment.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/eslz-enterprise-enrollment",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/scenarios/wvd/design-area-resource-organization.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/eslz-resource-organization",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/reference/fundamental-concepts/hierarchy-azure-tools.md",
+         "redirect_url": "/azure/cloud-adoption-framework/resources/fundamental-concepts/hierarchy-azure-tools",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/reference/fundamental-concepts/hosting-hierarchy.md",
+         "redirect_url": "/azure/cloud-adoption-framework/resources/fundamental-concepts/hosting-hierarchy",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/reference/migration-with-enterprise-scaffold.md",
+         "redirect_url": "/azure/cloud-adoption-framework/resources/migration-with-enterprise-scaffold",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/vmware-host.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-vmware/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/reference/networking-vdc.md",
+         "redirect_url": "/azure/cloud-adoption-framework/resources/networking-vdc",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/reference/tools-templates.md",
+         "redirect_url": "/azure/cloud-adoption-framework/resources/tools-templates",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/reference/vdc.md",
+         "redirect_url": "/azure/cloud-adoption-framework/resources/vdc",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/resources/vdc.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/enterprise-scale",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/sap/govern.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/sap/",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/secure/best-practices/security-governance-and-compliance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure/govern",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/secure/best-practices/end-to-end-governance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure/govern",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/ready/enterprise-scale/design-principles.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/design-principles",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/ready/considerations/azure-test-driven-development.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/considerations/development-strategy-test-driven-development",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/ready/considerations/test-driven-development.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/considerations/development-strategy-test-driven-development",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/ready/enterprise-scale/network-topology-and-connectivity.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/design-area/network-topology-and-connectivity",
+         "redirect_document_id": false
+      },  
+      {
+         "source_path": "docs/decision-guides/subscriptions/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/design-area/resource-org-subscriptions",
+         "redirect_document_id": false 
+      },
+      {
+         "source_path": "docs/decision-guides/software-defined-network/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/design-area/network-topology-and-connectivity",
+         "redirect_document_id": false  
+      },
+      {
+         "source_path": "docs/decision-guides/software-defined-network/paas-only.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/azure-best-practices/define-an-azure-network-topology",
+         "redirect_document_id": false  
+      },
+      {
+         "source_path": "docs/decision-guides/software-defined-network/cloud-native.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/azure-best-practices/define-an-azure-network-topology",
+         "redirect_document_id": false  
+      },
+      {
+         "source_path": "docs/decision-guides/software-defined-network/cloud-dmz.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/azure-best-practices/define-an-azure-network-topology",
+         "redirect_document_id": false  
+      },
+      {
+         "source_path": "docs/decision-guides/software-defined-network/hub-spoke.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/azure-best-practices/define-an-azure-network-topology",
+         "redirect_document_id": false  
+      },
+      {
+         "source_path": "docs/decision-guides/software-defined-network/hybrid.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/azure-best-practices/define-an-azure-network-topology",
+         "redirect_document_id": false  
+      },
+      {
+         "source_path": "docs/decision-guides/policy-enforcement/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/policy-compliance/policy-definition",
+         "redirect_document_id": false   
+      },
+      {
+         "source_path": "docs/decision-guides/resource-tagging/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming-and-tagging-decision-guide",
+         "redirect_document_id": true   
+      },
+      {
+         "source_path": "docs/ready/considerations/networking-options.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/design-area/network-topology-and-connectivity",
+         "redirect_document_id": false   
+      },
+      {         
+         "source_path": "docs/govern/identity-baseline/business-risks.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-security-governance",
+         "redirect_document_id": false
+      },                  
+      {
+         "source_path": "docs/govern/identity-baseline/compliance-processes.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-security-governance",
+         "redirect_document_id": false
+      },                  
+      {
+         "source_path": "docs/govern/identity-baseline/discipline-improvement.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-security-governance",
+         "redirect_document_id": false
+      },                  
+      {
+         "source_path": "docs/govern/identity-baseline/metrics-tolerance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-security-governance",
+         "redirect_document_id": false
+      },                  
+      {
+         "source_path": "docs/govern/identity-baseline/policy-statements.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-security-governance",
+         "redirect_document_id": false
+      },                  
+      {
+         "source_path": "docs/govern/identity-baseline/template.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-security-governance",
+         "redirect_document_id": false
+      },                  
+      {
+         "source_path": "docs/govern/identity-baseline/toolchain.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-security-governance",
+         "redirect_document_id": false
+      }, 
+      {
+         "source_path": "docs/govern/deployment-acceleration/business-risks.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/deployment-acceleration",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/deployment-acceleration/compliance-processes.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/deployment-acceleration",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/deployment-acceleration/discipline-improvement.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/deployment-acceleration",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/deployment-acceleration/metrics-tolerance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/deployment-acceleration",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/deployment-acceleration/policy-statements.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/deployment-acceleration",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/deployment-acceleration/template.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/deployment-acceleration",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/deployment-acceleration/toolchain.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/deployment-acceleration",
+         "redirect_document_id": false
+      },
+      {   
+         "source_path": "docs/govern/resource-consistency/business-risks.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/resource-consistency",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/resource-consistency/compliance-processes.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/resource-consistency",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/resource-consistency/discipline-improvement.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/resource-consistency",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/resource-consistency/governance-multiple-teams.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/resource-consistency",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/resource-consistency/governance-simple-workload.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/resource-consistency",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/resource-consistency/metrics-tolerance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/resource-consistency",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/resource-consistency/policy-statements.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/resource-consistency",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/resource-consistency/resource-access-management.md",
+         "redirect_url": "/azure/cloud-adoption-framework/get-started/how-azure-resource-manager-works",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/resource-consistency/template.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/resource-consistency",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/resource-consistency/toolchain.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/resource-consistency",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/resource-consistency/why-update-azure-landing-zone.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/resource-consistency/keep-azure-landing-zone-up-to-date",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/decision-guides/migrate-decision-guide/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/prepare/tools-backlog",
+         "redirect_document_id": false   
+      },
+      {
+         "source_path": "docs/ready/considerations/hybrid-consistency.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/hybrid/plan",
+         "redirect_document_id": false   
+      },
+      {
+         "source_path": "docs/infrastructure/mainframe-migration/myths-and-facts.md",
+         "redirect_url": "/azure/cloud-adoption-framework/infrastructure/mainframe-migration/",
+         "redirect_document_id": false   
+      },
+      {
+         "source_path": "docs/ready/considerations/storage-options.md",
+         "redirect_url": "/azure/architecture/guide/technology-choices/storage-options",
+         "redirect_document_id": false   
+      },
+      {
+         "source_path": "docs/ready/considerations/data-options.md",
+         "redirect_url": "/azure/architecture/guide/technology-choices/data-options",
+         "redirect_document_id": false 
+      },
+      {
+         "source_path": "docs/decision-guides/encryption/index.md",
+         "redirect_url": "/azure/well-architected/security/design-storage-encryption",
+         "redirect_document_id": false   
+      },
+      {
+         "source_path": "docs/ready/landing-zone/terraform-module.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/deploy-landing-zones-with-terraform",
+         "redirect_document_id": false   
+      },
+      {
+         "source_path": "docs/ready/enterprise-scale/terraform-module-caf-enterprise-scale.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/deploy-landing-zones-with-terraform",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/contoso-migration-mysql-to-azure.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/scenarios",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/sql-migration.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/scenarios",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-migration-guide/migrate.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/azure-migration-guide/deploy",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-migration-guide/optimize-and-transform.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/azure-migration-guide/release",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/contoso-migration-infrastructure.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/prepare/ready-azure-landing-zone",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/innovate/best-practices/data-dms.md",
+         "redirect_url": "/azure/dms/dms-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/ready/landing-zone/design-area/identity-access-platform-access.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/design-area/identity-access",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/oracle-iaas/governance-complaince-oracle-landing-zone.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/oracle-iaas",
+          "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/oracle-iaas/introduction-oracle-landing-zone.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/oracle-iaas/index",
+          "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/oracle-iaas/oracle-network-topology.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/oracle-iaas/oracle-network-topology-iaas",
+          "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/scenarios/oracle-iaas/oracle-disaster-recovery-oracle-landing-zone.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/oracle-iaas/oracle-disaster-recovery-iaas",
+          "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/scenarios/oracle-iaas/oracle-security-guideline-landing-zone.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/oracle-iaas/oracle-security-overview-iaas",
+          "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/scenarios/oracle-iaas/oracle-manage-monitor-workload.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/oracle-iaas/oracle-manage-monitor-iaas",
+          "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/ready/landing-zone/align-scenarios.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/align-scenario-single-subscription",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/ready/landing-zone/align-scenarios-1.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/align-scenario-multiple-management-groups",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/ready/landing-zone/align-scenarios-2.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/align-scenario-regional-org",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/ready/landing-zone/align-approaches-1.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/align-approach-duplicate-brownfield-audit-only",
+        "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/ready/landing-zone/terraform-landing-zone.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/deploy-landing-zones-with-terraform",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/ready/expanded-scope/terraform-landing-zone.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/deploy-landing-zones-with-terraform",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/wvd/enterprise-scale-landing-zone.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/enterprise-scale-landing-zone",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/wvd/eslz-business-continuity-and-disaster-recovery.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/eslz-business-continuity-and-disaster-recovery",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/wvd/eslz-enterprise-enrollment.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/eslz-enterprise-enrollment",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/wvd/eslz-identity-and-access-management.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/eslz-identity-and-access-management",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/wvd/eslz-management-and-monitoring.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/eslz-management-and-monitoring",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/wvd/eslz-network-topology-and-connectivity.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/eslz-network-topology-and-connectivity",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/wvd/eslz-platform-automation-and-devops.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/eslz-platform-automation-and-devops",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/wvd/eslz-resource-organization.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/eslz-resource-organization",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/wvd/eslz-security-governance-and-compliance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/eslz-security-governance-and-compliance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/wvd/govern.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/govern",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/wvd/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/wvd/innovate.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/innovate",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/wvd/landing-zone-citrix/citrix-business-continuity-disaster-recovery.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/landing-zone-citrix/citrix-business-continuity-disaster-recovery",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/wvd/landing-zone-citrix/citrix-enterprise-scale-landing-zone.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/landing-zone-citrix/citrix-enterprise-scale-landing-zone",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/wvd/landing-zone-citrix/citrix-identity-access-management.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/landing-zone-citrix/citrix-identity-access-management",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/wvd/landing-zone-citrix/citrix-management-monitoring.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/landing-zone-citrix/citrix-management-monitoring",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/wvd/landing-zone-citrix/citrix-network-topology-connectivity.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/landing-zone-citrix/citrix-network-topology-connectivity",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/wvd/landing-zone-citrix/citrix-resource-organization.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/landing-zone-citrix/citrix-resource-organization",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/wvd/landing-zone-citrix/citrix-security-governance-compliance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/landing-zone-citrix/citrix-security-governance-compliance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/wvd/manage.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/manage",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/wvd/migrate-assess.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/migrate-assess",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/wvd/migrate-deploy.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/migrate-deploy",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/wvd/migrate-release.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/migrate-release",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/wvd/plan.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/plan",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/wvd/proof-of-concept.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/proof-of-concept",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/wvd/ready.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/ready",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/wvd/strategy.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/strategy",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/prerequisites/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/prepare",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/prerequisites/decisions.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/prepare",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-migration-guide/migration-tools-decision-guide.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/prepare/tools-backlog",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/prerequisites/planning-checklist.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/prepare",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/multiple-datacenters.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/prepare/migrate-from-multiple-datacenters",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/multiple-regions.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/prepare/select-regions-migration",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/prerequisites/cultural-complexity.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/prepare/roles-responsibilities",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/prerequisites/migration-backlog-review.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/prepare/tools-backlog",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/governance-or-compliance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/plan",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/prerequisites/technical-complexity.md",
+         "redirect_url": "/azure/cloud-adoption-framework/plan",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/suggested-skills.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/prepare/skills-support",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/assess/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/assess",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/plan/contoso-migration-assessment.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/assess",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-migration-guide/assess.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/assess",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/assess/classify.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/assess/classify",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/assess/business-priorities.md",
+         "redirect_url": "/azure/cloud-adoption-framework/plan/initial-org-alignment",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/assess/evaluate.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/assess/evaluate",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/assess/architect.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/assess/architect",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/assess/estimate.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/assess/architect",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/assess/partnership-options.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/prepare/skills-support",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/assess/approve.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/choose-landing-zone-option",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/assess/release-iteration-backlog.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/prepare/tools-backlog",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-migration-guide/deploy.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/deploy",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/migrate/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/deploy",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-migration-guide/ready-alz.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/prepare/ready-azure-landing-zone",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/migrate/promotion-models.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/assess",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/migrate/remediate.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/deploy/remediate",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/migrate/replicate-options.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/migration-considerations/migrate/replicate",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/migrate/replicate.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/deploy/replicate",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/migrate/stage.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/deploy/deploy-supporting-services",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/network-capacity-exceeded.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/deploy/replicate",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/migrate-best-practices-networking.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/design-area/network-topology-and-connectivity",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/optimize/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/release",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-migration-guide/release.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/release",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/optimize/business-change-plan.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/release/change-communication",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/optimize/business-test.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/release/business-test",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/optimize/optimize.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/release",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/optimize/ready.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/release/prepare-for-promotion",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/optimize/promote.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/release/complete-migration",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/optimize/decommission.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/release/optimize-cost-after-migration",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/optimize/retrospective.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/release/retrospective",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/migrate-best-practices-costs.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/release",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-migration-guide/manage-costs.md",
+         "redirect_url": "/azure/cost-management-billing/cost-management-billing-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/antipatterns/migrate-antipatterns.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-migration-guide/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-migration-guide/assistance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/prepare/skills-support",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/analytics/azure-synapse.md",
+         "redirect_url": "/azure/synapse-analytics/sql-data-warehouse/backup-and-restore",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/migration-considerations/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/lamp/moodle/azure-infra-config.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate",
+         "redirect_document_id": false
+      }     ,
+      {
+         "source_path": "docs/scenarios/lamp/moodle/migration-arch.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate",
+         "redirect_document_id": false
+      }     ,
+      {
+         "source_path": "docs/scenarios/lamp/moodle/migration-overview.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate",
+         "redirect_document_id": false
+      }     ,
+      {
+         "source_path": "docs/scenarios/lamp/moodle/migration-post.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate",
+         "redirect_document_id": false
+      }     ,
+      {
+         "source_path": "docs/scenarios/lamp/moodle/migration-pre.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate",
+         "redirect_document_id": false
+      }     ,
+      {
+         "source_path": "docs/scenarios/lamp/moodle/migration-resources.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate",
+         "redirect_document_id": false
+      }   ,
+      {
+         "source_path": "docs/scenarios/lamp/moodle/migration-start.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/migrate-best-practices-security-management.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/contoso-migration-sql-server-db-to-azure.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/scenarios",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/contoso-migration-oss-db-to-azure.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/scenarios",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/contoso-migration-postgresql-to-azure.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/scenarios",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/contoso-migration-mariadb-to-azure.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/scenarios",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/prerequisites/assistance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/prepare/skills-support",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/deploy/stage.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/deploy/deploy-supporting-services",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/deploy/network-capacity-exceeded.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/deploy/replicate",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/release/promote.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/release/complete-migration",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/release/prepare-for-promotion.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/release/complete-migration",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/prepare/readying-migration-tools.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/prepare/tools-backlog",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/contoso-migration-rehost-linux-vm.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/scenarios",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/contoso-migration-rehost-linux-vm-mysql.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/scenarios",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/tailwind-migration-rehost-server-replication.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/scenarios",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/tailwind-migration-assess-servers.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/scenarios",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/contoso-migration-overview.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/scenarios",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/analytics/analytics-solutions-overview.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/scenarios",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/analytics/analytics-solutions-teradata.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/scenarios",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/analytics/analytics-solutions-netezza.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/scenarios",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/analytics/analytics-solutions-exadata.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/scenarios",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/analytics/schema-migration-ddl.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/scenarios",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/contoso-migration-rds-to-wvd.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/azure-best-practices/contoso-migration-rds-to-azure-virtual-desktop",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/prepare/migrate-from-multiple-datacenters.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/prepare/tools-backlog",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/contoso-migration-devtest-to-iaas.md",
+         "redirect_url": "/azure/devtest-labs/devtest-lab-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/contoso-migration-devtest-to-labs.md",
+         "redirect_url": "/azure/devtest-labs/devtest-lab-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/contoso-migration-tfs-vsts.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/scenarios",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/contoso-migration-rebuild.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/scenarios",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/contoso-migration-refactor-linux-app-service-mysql.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/scenarios",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/contoso-migration-refactor-web-app-sql-managed-instance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/scenarios",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/contoso-migration-refactor-web-app-sql.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/scenarios",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/contoso-migration-scale.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/scenarios",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/contoso-migration-rehost-vm.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/scenarios",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/contoso-migration-rehost-vm-sql-ag.md ",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/scenarios",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/migrate/azure-best-practices/contoso-migration-rehost-vm-sql-managed-instance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate/scenarios",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/overview.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios",
+         "redirect_document_id": false
+      },
+      {      
+         "source_path": "docs/govern/benchmark.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/cloud-service-controls.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/corporate-policy.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/cost-management/best-practices.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-cost-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/cost-management/business-risks.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-cost-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/cost-management/compliance-processes.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-cost-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/cost-management/discipline-improvement.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-cost-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/cost-management/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-cost-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/cost-management/metrics-tolerance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-cost-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/cost-management/policy-statements.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-cost-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/cost-management/template.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-cost-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/cost-management/toolchain.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-cost-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/deployment-acceleration/deployment-consistency-repeatability.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-resource-management-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/deployment-acceleration/policy-visibility-in-deployment.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-resource-management-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/foundation-improvements.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/governance-disciplines.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/guides/complex/cost-management-improvement.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/guides/complex/identity-baseline-improvement.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/guides/complex/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+        "source_path": "docs/scenarios/oracle-iaas/manage-resources-oracle-landing-zone.md",
+        "redirect_url": "/azure/cloud-adoption-framework/scenarios/oracle-iaas/index",
+        "redirect_document_id": false   
+      },
+      {
+         "source_path": "docs/govern/guides/complex/initial-corporate-policy.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/guides/complex/multicloud-improvement.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/guides/complex/multiple-layers-of-governance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/guides/complex/narrative.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/guides/complex/prescriptive-guidance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/guides/complex/resource-consistency-improvement.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-resource-management-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/guides/complex/security-baseline-improvement.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/guides/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/guides/standard/cost-management-improvement.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/guides/standard/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/guides/standard/initial-corporate-policy.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/guides/standard/multicloud-improvement.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/guides/standard/narrative.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/guides/standard/prescriptive-guidance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/guides/standard/resource-consistency-improvement.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-resource-management-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/guides/standard/security-baseline-improvement.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/guides/standard/update-custom-policies.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/design-area/update-custom-policies",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/identity-baseline/administrative-access.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-security-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/identity-baseline/application-access.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-security-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/identity-baseline/azure-ad-configuration.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-security-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/identity-baseline/business-user-access.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-security-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/identity-baseline/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-security-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/initial-foundation.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/methodology.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/policy-compliance/business-risk.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/policy-compliance/cloud-policy-review.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/policy-compliance/cloud-security-readiness.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/policy-compliance/data-classification.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/policy-compliance/governance-alignment.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/policy-compliance/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/policy-compliance/policy-definition.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/policy-compliance/processes.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/policy-compliance/regulatory-compliance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/policy-compliance/risk-tolerance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/policy-compliance/sustainability-considerations.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/resource-consistency/business-constraints.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-resource-management-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/resource-consistency/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-resource-management-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/resource-consistency/keep-azure-landing-zone-up-to-date.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/design-area/keep-azure-landing-zone-up-to-date",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/resource-consistency/management-group-structure.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-resource-management-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/resource-consistency/migrate-azure-landing-zone-policies.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/design-area/migrate-azure-landing-zone-policies",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/resource-consistency/naming.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-resource-management-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/resource-consistency/tagging.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-resource-management-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/security-baseline/azure-security-guidance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-security-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/security-baseline/business-risks.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-security-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/security-baseline/cloud-native-policy.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-security-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/security-baseline/compliance-processes.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-security-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/security-baseline/discipline-improvement.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-security-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/security-baseline/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-security-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/security-baseline/metrics-tolerance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-security-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/security-baseline/policy-statements.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-security-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/security-baseline/template.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-security-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/deployment-acceleration/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-resource-management-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/govern/security-baseline/toolchain.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-security-governance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/ready/landing-zone/choose-landing-zone-option.md",
+         "redirect_url": "/azure/architecture/landing-zones/landing-zone-deploy",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/ready/landing-zone/foundation-blueprint.md",
+         "redirect_url": "/azure/architecture/landing-zones/landing-zone-deploy",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/ready/landing-zone/migrate-landing-zone.md",
+         "redirect_url": "/azure/architecture/landing-zones/landing-zone-deploy",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/ready/landing-zone/refactor.md",
+         "redirect_url": "/azure/architecture/landing-zones/landing-zone-deploy",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/ready/azure-best-practices/organize-subscriptions.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/design-area/resource-org-management-groups",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/oracle-iaas/oracle-manage-monitor-odaa.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/oracle-iaas/oracle-manage-monitor-oracle-database-azure",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/ready/landing-zone/design-area/azure-billing-ad-tenant.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready/landing-zone/design-area/azure-billing-microsoft-entra-tenant",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/innovate/best-practices/conversational-ai.md",
+         "redirect_url": "/azure/cloud-adoption-framework/innovate",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/innovate/ai/machine-learning.md",
+         "redirect_url": "/azure/cloud-adoption-framework/innovate",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/innovate/ai/knowledge-mining.md",
+         "redirect_url": "/azure/cloud-adoption-framework/innovate",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/innovate/ai/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/innovate",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/innovate/ai/ai-applications.md",
+         "redirect_url": "/azure/cloud-adoption-framework/innovate",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/innovate/best-practices/ai-applications.md",
+         "redirect_url": "/azure/cloud-adoption-framework/innovate",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/innovate/best-practices/cognitive-search.md",
+         "redirect_url": "/azure/cloud-adoption-framework/innovate",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/innovate/innovation-guide/predict.md",
+         "redirect_url": "/azure/cloud-adoption-framework/innovate",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/innovate/best-practices/machine-learning.md",
+         "redirect_url": "/azure/machine-learning/overview-what-is-azure-machine-learning",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/innovate/best-practices/ml-security.md",
+         "redirect_url": "/azure/machine-learning/how-to-secure-inferencing-vnet",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/innovate/best-practices/set-up-ml-workspaces.md",
+         "redirect_url": "/azure/machine-learning/concept-workspace",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/innovate/best-practices/dev-train-comp-instances-for-ml.md",
+         "redirect_url": "/azure/machine-learning/how-to-secure-inferencing-vnet",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/innovate/best-practices/how-to-approach-mlops.md",
+         "redirect_url": "/training/paths/build-first-machine-operations-workflow",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/innovate/best-practices/mlops-process.md",
+         "redirect_url": "/azure/architecture/data-science-process/overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/innovate/best-practices/trusted-ai.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy/inform/ai",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "docs/innovate/best-practices/predict.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy/inform/ai",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/innovate/best-practices/ml-deployment-inference.md",
+         "redirect_url": "/azure/machine-learning/overview-what-is-azure-machine-learning",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/monitor/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/monitor/monitoring",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/monitor/platform-overview.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/monitor/monitoring#azure_facilitation",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/monitor/response.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/monitor/monitoring",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/monitor/service-level-objectives.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/monitor/monitoring",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/monitor/suggested-skills.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/monitor/monitoring",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/monitor/observability.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/monitor/monitoring",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/monitoring-strategy.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/monitor/monitoring",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/monitor/cloud-models-monitor-overview.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/monitor/monitoring",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/monitor/data-collection.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/monitor/monitoring",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/secure/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure/overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/secure/asset-protection.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure/govern",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/secure/access-control.md",
+         "redirect_url": "/security/zero-trust/deploy/identity",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/secure/best-practices/secure-devops.md",
+         "redirect_url": "/security/zero-trust/develop/secure-dev-environment-zero-trust",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/secure/best-practices/toolchain.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure/adopt",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/secure/business-resilience.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure/plan",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/secure/development-innovation-security.md",
+         "redirect_url": "/security/zero-trust/develop/identity-zero-trust-compliance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/secure/development-security-architecture.md",
+         "redirect_url": "/security/zero-trust/develop/secure-devops-environments-zero-trust",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/secure/development-security-implementation-operations.md",
+         "redirect_url": "/security/zero-trust/develop/secure-devops-environments-zero-trust",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/secure/development-security-strategy-overview.md",
+         "redirect_url": "/security/zero-trust/develop/overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/secure/devops-strategy-process-security.md",
+         "redirect_url": "/security/zero-trust/develop/secure-devops-platform-environment-zero-trust",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/secure/devsecops-controls.md",
+         "redirect_url": "/security/zero-trust/develop/secure-devops-environments-zero-trust",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/secure/infrastructure-security-overview.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure/overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/secure/infrastructure-security-architecture.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure/ready",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/secure/infrastructure-security-implementation.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure/adopt",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/secure/infrastructure-security-operations-governance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure/govern",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/secure/infrastructure-security-strategy.md",
+         "redirect_url": "/security/zero-trust/deploy/infrastructure",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/secure/innovation-security.md",
+         "redirect_url": "/security/zero-trust/develop/identity-zero-trust-compliance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/secure/risk-insights.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure/overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/azure-hpc/energy/storage.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-hpc/storage",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/azure-hpc/finance/storage.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-hpc/storage",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/azure-hpc/manufacturing/storage.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-hpc/storage",
+         "redirect_document_id": false
+      },
+      {   
+         "source_path": "docs/secure/security-best-practices-introduction.md",
+         "redirect_url": "/security/zero-trust/deploy/infrastructure",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/secure/security-governance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure/govern",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/secure/security-integration.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure/govern",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/secure/security-operations.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure/teams-roles",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/secure/best-practices/manage-secrets.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure/adopt",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/get-started/team/cloud-governance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/resources/migration-with-enterprise-scaffold.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/resources/azure-scaffold.md",
+         "redirect_url": "/azure/cloud-adoption-framework/ready",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/get-started/security.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/get-started/team/cloud-adoption.md",
+         "redirect_url": "/azure/cloud-adoption-framework/organize/cloud-adoption",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/get-started/team/cloud-operations.md",
+         "redirect_url": "/azure/cloud-adoption-framework/organize/cloud-operations",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/get-started/org-alignment.md",
+         "redirect_url": "/azure/cloud-adoption-framework/organize",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/cloud-adoption-strategy-evaluator.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy/assessment",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/responsible-ai.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy/inform/ai",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/business-outcomes/sustainability.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy/inform/sustainability",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/achieve-more.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy/inform",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/balance-competing-priorities.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy/",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/balance-the-portfolio.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/building-devops-practice.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/business-outcomes/agility-outcomes.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy/inform",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/business-outcomes/business-outcome-template.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/business-outcomes/data-democratization.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/business-outcomes/data-innovations.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/business-outcomes/engagement-outcomes.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/business-outcomes/fiscal-outcomes.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy/inform/cost-efficiency",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/business-outcomes/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy/inform",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/business-outcomes/okr.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy/mission-objectives",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/business-outcomes/performance-outcomes.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy/inform",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/business-outcomes/reach-outcomes.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy/inform",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/cloud-accounting.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy/inform/cost-efficiency",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/cloud-migration-business-case.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy/mission-objectives",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/communication.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/digital-transformation-timeline.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/finance-vocabulary-terms.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy/inform/cost-efficiency",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/financial-considerations/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy/inform/cost-efficiency",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/global-markets.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/learning-metrics.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/suggested-skills.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/technical-considerations/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy/inform",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/define-security-strategy.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy/inform/security",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/define-sovereignty-strategy.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy/inform/resiliency",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/partner-alignment.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/share-your-strategy.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/get-started/team/cloud-strategy.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy/define-your-team",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/organize/cloud-security-application-security-devsecops.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure/teams-roles",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/organize/cloud-security-architecture.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure/teams-roles",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/organize/cloud-security-compliance-management.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure/teams-roles",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/organize/cloud-security-data-security.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure/teams-roles",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/organize/cloud-security-identity-keys.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure/teams-roles",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/organize/cloud-security-incident-preparation.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure/teams-roles",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/organize/cloud-security-infrastructure-endpoint.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure/teams-roles",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/organize/cloud-security-operations-center.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure/teams-roles",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/organize/cloud-security-people.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure/teams-roles",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/organize/cloud-security-policy-standards.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure/teams-roles",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/organize/cloud-security-posture-management.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure/teams-roles",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/organize/cloud-security-threat-intelligence.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure/teams-roles",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/organize/cloud-security.md",
+         "redirect_url": "/azure/cloud-adoption-framework/secure/teams-roles",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/azure-hpc/energy/management.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-hpc/",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/azure-hpc/finance/management.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-hpc/",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/azure-hpc/manufacturing/management.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-hpc/",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/azure-hpc/energy/platform-automation-devops.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-hpc/",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/azure-hpc/finance/platform-automation-devops.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-hpc/",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/azure-hpc/energy/network-topology-connectivity.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-hpc/network-topology-connectivity",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/azure-hpc/finance/network-topology-connectivity.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-hpc/network-topology-connectivity",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/azure-hpc/manufacturing/network-topology-connectivity.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-hpc/network-topology-connectivity",
+         "redirect_document_id": false
+      },
+      {   
+         "source_path": "docs/scenarios/azure-hpc/manufacturing/platform-automation-devops.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-hpc/",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/azure-hpc/energy/security-governance-compliance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-hpc/",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/azure-hpc/finance/security-governance-compliance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-hpc/",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/azure-hpc/manufacturing/security-governance-compliance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-hpc/",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/azure-hpc/energy/security.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-hpc/",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/azure-hpc/finance/security.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-hpc/",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/azure-hpc/manufacturing/security.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-hpc/",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/azure-hpc/energy/compute.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-hpc/compute",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/azure-hpc/finance/compute.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-hpc/compute",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/azure-hpc/manufacturing/compute.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/azure-hpc/compute",
+         "redirect_document_id": false
+      },
+     {
+         "source_path": "docs/scenarios/oracle-iaas/enterprise-enrollment-oracle.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/oracle-iaas",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/scenarios/oracle-iaas/governance-compliance-oracle-landing-zone.md",
+         "redirect_url": "/azure/cloud-adoption-framework/scenarios/oracle-iaas",
+         "redirect_document_id": false
+       },
+       {
+         "source_path": "docs/antipatterns/govern-antipatterns.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/antipatterns/strategy-antipatterns.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/get-started/migrate.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/industry/retail/govern.md",
+         "redirect_url": "/azure/cloud-adoption-framework/govern",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/industry/retail/improve-retail-experience.md",
+         "redirect_url": "/azure/cloud-adoption-framework",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/industry/retail/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/industry/retail/industry-priority-scenarios.md",
+         "redirect_url": "/azure/cloud-adoption-framework",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/industry/retail/innovate.md",
+         "redirect_url": "/azure/cloud-adoption-framework/innovate",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/industry/retail/manage.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/industry/retail/migrate.md",
+         "redirect_url": "/azure/cloud-adoption-framework/migrate",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/industry/retail/organize.md",
+         "redirect_url": "/azure/cloud-adoption-framework/organize",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/industry/retail/plan.md",
+         "redirect_url": "/azure/cloud-adoption-framework/plan",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/industry/retail/ready.md",
+         "redirect_url": "/azure/cloud-adoption-framework/",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/industry/retail/retail-azure-advantages.md",
+         "redirect_url": "/azure/cloud-adoption-framework",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/industry/retail/retail-building-management-optimization.md",
+         "redirect_url": "/azure/cloud-adoption-framework",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/industry/retail/retail-cloud-maturity.md",
+         "redirect_url": "/azure/cloud-adoption-framework",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/industry/retail/retail-context.md",
+         "redirect_url": "/azure/cloud-adoption-framework",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/industry/retail/retail-demand-forecasting-solution-accelerator.md",
+         "redirect_url": "/azure/cloud-adoption-framework",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/industry/retail/retail-modern-finance-solution-accelerator.md",
+         "redirect_url": "/azure/cloud-adoption-framework",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/industry/retail/retail-omnichannel-optimization.md",
+         "redirect_url": "/azure/cloud-adoption-framework",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/industry/retail/retail-personalization.md",
+         "redirect_url": "/azure/cloud-adoption-framework",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/industry/retail/retail-supply-chain-optimization.md",
+         "redirect_url": "/azure/cloud-adoption-framework",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/industry/retail/strategy.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/azure-server-management/index.md",
+         "redirect_url": "/azure/azure-monitor/best-practices-vm",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/azure-server-management/common-policies.md",
+         "redirect_url": "/azure/governance/policy/samples/built-in-policies#general",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/azure-server-management/enable-tracking-alerting.md",
+         "redirect_url": "/azure/automation/change-tracking/guidance-migration-log-analytics-monitoring-agent",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/azure-server-management/guest-configuration-policy.md",
+         "redirect_url": "/azure/governance/machine-configuration/how-to/develop-custom-package/overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/azure-server-management/onboard-at-scale.md",
+         "redirect_url": "/azure/virtual-machines/updates-maintenance-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/azure-server-management/onboarding-automation.md",
+         "redirect_url": "/azure/virtual-machines/updates-maintenance-overview",
+         "redirect_document_id": false
+      },
+       {
+         "source_path": "docs/manage/azure-server-management/onboarding-overview.md",
+         "redirect_url": "/azure/virtual-machines/updates-maintenance-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/azure-server-management/onboard-single-vm.md",
+         "redirect_url": "/azure/virtual-machines/updates-maintenance-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/azure-server-management/ongoing-management-overview.md",
+         "redirect_url": "/azure/virtual-machines/updates-maintenance-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/azure-server-management/prerequisites.md",
+         "redirect_url": "/azure/azure-monitor/logs/workspace-design",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/azure-server-management/setup-alerts.md",
+         "redirect_url": "/azure/azure-monitor/alerts/alerts-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/azure-server-management/tools-services.md",
+         "redirect_url": "/azure/virtual-machines/updates-maintenance-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/azure-server-management/update-schedules.md",
+         "redirect_url": "/azure/update-manager/scheduled-patching#schedule-recurring-updates-on-a-single-vm",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/strategy/inform/financial-efficiency.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy/inform/cost-efficiency",
+         "redirect_document_id": true
+      },
+     {
+      "source_path": "docs/manage/infrastructure-as-code-updates.md",
+      "redirect_url": "/azure/cloud-adoption-framework/ready/considerations/infrastructure-as-code-updates",
+      "redirect_document_id": true
+      },
+      {
+       "source_path": "docs/get-started/reliability.md",
+       "redirect_url": "/azure/cloud-adoption-framework/manage/protect#manage-reliability",
+       "redirect_document_id": false
+       },
+      {
+         "source_path": "docs/manage/azure-management-guide/enhanced-baseline.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/azure-management-guide/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/azure-management-guide/inventory.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/monitor#plan-your-monitoring-strategy",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/azure-management-guide/operational-compliance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/administer#manage-compliance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/azure-management-guide/protect-recover.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/protect",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/centralize-operations.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/considerations/business-alignment.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/protect#manage-reliability",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/considerations/commitment.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/protect#manage-reliability",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/considerations/criticality.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/protect#manage-reliability",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/considerations/discipline.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/considerations/impact.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/protect#manage-reliability",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/considerations/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/considerations/inventory.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/monitor#plan-your-monitoring-strategy",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/considerations/operational-compliance.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/administer#manage-compliance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/considerations/platform.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/considerations/protect.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/protect",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/considerations/sustainability.md",
+         "redirect_url": "/azure/cloud-adoption-framework/strategy/inform/sustainability",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/considerations/workload.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/design-principles.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/mlops-machine-learning.md",
+         "redirect_url": "/azure/architecture/ai-ml/guide/machine-learning-operations-v2",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/operational-fitness-review.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/index",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/azure-management-guide/platform-specialization.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/ready",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/manage/azure-management-guide/workload-specialization.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/ready",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/relocate/cutover.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/administer#manage-relocation",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/relocate/evaluate.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/administer#manage-relocation",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/relocate/index.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/administer#manage-relocation",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/relocate/initiate.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/administer#manage-relocation",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/relocate/migrate.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/administer#manage-relocation",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "docs/relocate/select.md",
+         "redirect_url": "/azure/cloud-adoption-framework/manage/administer#manage-relocation",
+         "redirect_document_id": false
+      }
+   ]   
+}
