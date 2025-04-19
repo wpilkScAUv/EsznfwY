@@ -1,0 +1,80 @@
+#
+# Copyright (c) 2022-2023 Red Hat, Inc.
+# This program and the accompanying materials are made
+# available under the terms of the Eclipse Public License 2.0
+# which is available at https://www.eclipse.org/legal/epl-2.0/
+#
+# SPDX-License-Identifier: EPL-2.0
+#
+schemaVersion: 2.2.2
+metadata:
+  name: che
+  language: typescript
+attributes:
+  controller.devfile.io/scc: container-build
+  controller.devfile.io/storage-type: per-workspace
+projects:
+  - name: che
+    git:
+      remotes:
+        origin: 'https://github.com/eclipse/che.git'
+      checkoutFrom:
+        remote: origin
+        revision: main
+components:
+- name: devtools
+  container:
+    image: quay.io/devfile/universal-developer-image:ubi8-latest
+    memoryLimit: 12G
+    memoryRequest: 256Mi
+    cpuLimit: '2'
+    cpuRequest: 30m
+    mountSources: true
+    sourceMapping: /projects
+    env:
+      - name: KUBEDOCK_ENABLED
+        value: 'true'
+commands:
+- id: update-contributing
+  exec:
+    commandLine: '.repositories-update-contributing.sh IN_DOCKER'
+    component: devtools
+- id: check-contributing-is-updated
+  exec:
+    commandLine: '.repositories-update-contributing.sh IN_DOCKER'
+    component: devtools
+- id: tests-update-dependencies
+  exec:
+    commandLine: >-
+      cd tests/e2e &&
+      echo "Installing/Updating nvm" &&
+      curl -so- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash &&
+      export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" &&
+      nvm --version &&
+      echo "Updating nodejs" &&
+      nvm install lts/hydrogen && nvm alias default lts/hydrogen && nvm use default &&
+      echo "Updating npm" &&
+      npm install -g npm &&
+      echo "Installing test dependencies" &&
+      rm -rf package-lock.json &&
+      npm install &&
+      npm uninstall chromedriver && npm install chromedriver --save-dev &&
+      cd ../../
+    component: devtools
+- id: tests-lint-project
+  exec:
+    commandLine: >-
+      cd tests/e2e &&
+      npm run lint
+    component: devtools
+- id: tests-build-tests
+  exec:
+    commandLine: >-
+      cd tests/e2e &&
+      npm run tsc
+    component: devtools
+- id: tests-happy-path-remote
+  exec:
+    commandLine: >-
+      echo "TODO: Start pod in dogfooding user namespace and collect logs"
+    component: devtools
