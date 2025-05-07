@@ -1,0 +1,46 @@
+{
+    "name": "linkorb/libcloud-php",
+    "description": "Unified API for compute, dns, objectstorage and other cloud services",
+    "license": "MIT",
+    "type": "library",
+    "keywords": ["compute", "dns", "objectstorage", "godaddy", "linode", "digital ocean", "s3", "cloud"],
+
+    "require": {
+        "php": ">=5.4",
+        "symfony/http-foundation": "~2.7"
+    },
+    "suggest": {
+        "hampel/linode": "Connection to Linode",
+        "toin0u/digitalocean-v2": "Connection to digital ocean",
+        "rackspace/php-opencloud": "Connection to opencloud/Rackspace",
+        "linkorb/transip-php": "Connection to Transip"
+    },
+
+    "require-dev": {
+    },
+    "authors": [
+        {
+            "name":     "LinkORB Engineering",
+            "email":    "engineering@linkorb.com"
+        },
+        {
+            "name":     "Denis Alimov",
+            "email":    "v03adk@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "LibCloud\\": "src/"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "LibCloud\\Test\\": "test/"
+        },
+        "psr-0": {
+            "OpenCloud\\": "vendor/rackspace/php-opencloud/tests/"
+        }
+    }
+}
