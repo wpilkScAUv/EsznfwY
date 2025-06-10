@@ -1,0 +1,9 @@
+{
+    "username": "your_username - typically an 8 digit number",
+    "password": "Do not share with anyone!",
+    "server": "ICMarkets-Demo",
+    "mt5Pathway": "C:/Program Files/ICMarkets - MetaTrader 5/terminal64.exe",
+    "symbols": ["USDJPY.a"],
+    "timeframe": "M30",
+    "pip_size": 0.01
+}
