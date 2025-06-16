@@ -1,0 +1,2 @@
+{:allowed-branchname-matches ["main" "collab-.*" "release-.*"]
+ :allowed-filename-matches ["docs" "includes"]}
