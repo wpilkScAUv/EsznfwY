@@ -1,0 +1,13 @@
+{
+    "ignorePatterns": [
+        {
+            "pattern": "^https://github.com/edgeimpulse/courseware-embedded-machine-learning/workflows/mlc.yml"
+        },
+        {
+            "pattern": "^https://github.com/edgeimpulse/courseware-embedded-machine-learning/workflows/mlc/badge.svg"
+        },
+        {
+            "pattern": "^https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request"
+        }
+    ]
+}
