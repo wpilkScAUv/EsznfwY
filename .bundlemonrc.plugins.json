@@ -1,0 +1,42 @@
+{
+  "baseDir": "./@ngxs/",
+  "subProject": "NGXS Plugins",
+  "defaultCompression": "none",
+  "includeCommitMessage": true,
+  "files": [
+    {
+      "friendlyName": "Plugins(fesm2022)",
+      "path": "./*-plugin/fesm2022/*.mjs",
+      "maxPercentIncrease": 1
+    },
+    {
+      "friendlyName": "Plugins(fesm2022)[gzip]",
+      "path": "./*-plugin/fesm2022/*.mjs",
+      "maxPercentIncrease": 0.5,
+      "compression": "gzip"
+    }
+  ],
+  "groups": [
+    {
+      "friendlyName": "All Plugins(fesm2022)",
+      "path": "./*-plugin/fesm2022/*.mjs",
+      "maxPercentIncrease": 1
+    },
+    {
+      "friendlyName": "All Plugins(fesm2022)[gzip]",
+      "path": "./*-plugin/fesm2022/*.mjs",
+      "maxPercentIncrease": 0.5,
+      "compression": "gzip"
+    }
+  ],
+  "reportOutput": [
+    [
+      "github",
+      {
+        "checkRun": false,
+        "commitStatus": true,
+        "prComment": true
+      }
+    ]
+  ]
+}
