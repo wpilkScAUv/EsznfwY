@@ -1,0 +1,19 @@
+name: Event Service CI
+run-name: Build and Test 🚀
+on: [push, pull_request]
+jobs:
+  build:
+    defaults:
+      run:
+        working-directory: Event-Management-Service
+    name: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+      - run: yarn install
+      - run: yarn build
+      - run: yarn test
