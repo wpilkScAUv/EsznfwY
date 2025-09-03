@@ -1,0 +1,891 @@
+========================
+CODE SNIPPETS
+========================
+
+TITLE: display widget simple value
+DESCRIPTION: Used to visualize the result of any jsonata expression. Here, we display the value of the session variable x
+LANGUAGE: json
+CODE: {
+  "widget" : "display",
+  "print" : "variable.x"
+}
+
+TITLE: display widget showing object
+DESCRIPTION: Used to visualize the result of any jsonata expression. Here, we display the current time as a key-value list
+LANGUAGE: json
+CODE: {
+  "widget" : "display",
+  "print" : "{'time': $now()}"
+}
+
+TITLE: display widget showing link
+DESCRIPTION: Used to visualize the result of any jsonata expression. Here, we display a link to a record in the database
+LANGUAGE: json
+CODE: {
+  "display" : "{'database': 'northwind', 'table': 'EMPLOYEES', 'pk1':2}",
+  "widget" : "display"
+}
+
+TITLE: display widget showing table
+DESCRIPTION: Used to visualize the result of any jsonata expression. Here, we display a list of objects as a table
+LANGUAGE: json
+CODE: {
+  "display" : "[{'x':1, 'y':1}, {'x':2, 'y':2}]",
+  "widget" : "display"
+}
+
+TITLE: display widget showing an image
+DESCRIPTION: if the object has exactly the key 'img' (with optional width and height), the result is displayed as an HTML image with the value of the img field being used as the image src attribute
+LANGUAGE: json
+CODE: {
+  "display" : "{'img': 'https://dashjoin.com/img/fav.png'}",
+  "widget" : "display"
+}
+
+TITLE: display widget showing a hyperlink
+DESCRIPTION: if the object has exactly the key 'href' or the keys 'href' and 'label', the object is displayed as a hyperlink
+LANGUAGE: json
+CODE: {
+  "display" : "{'href':'http://dashjoin.com', 'label':'DJ Homepage'}",
+  "widget" : "display"
+}
+
+TITLE: display widget showing a hyperlink
+DESCRIPTION: absolute or relative links to another page in the app are specified without the 'slash hash' part of the URL - for instance, the href 'Info' or '/page/Info' links to the Info page
+LANGUAGE: json
+CODE: {
+  "display" : "{'href':'/#/page/Home', 'label':'Home'}",
+  "widget" : "display"
+}
+
+TITLE: display widget on dashboard page
+DESCRIPTION: shows how a display widget is added on a dashboard page
+FILE: model/page/test.json
+LANGUAGE: json
+CODE: {
+  "ID" : "test",
+  "layout" : {
+    "widget" : "page",
+    "children" : [ {
+      "display" : "{'database': 'northwind', 'table': 'EMPLOYEES', 'pk1':2}",
+      "widget" : "display"
+    } ]
+  }
+}
+
+TITLE: display widget on instance page
+DESCRIPTION: shows how a display widget is added on a database instance page
+FILE: model/dj-database/dj%2Fsqlite.json
+LANGUAGE: json
+CODE: {
+  "name" : "sqlite",
+  "ID" : "dj/sqlite",
+  "djClassName" : "org.dashjoin.service.SQLDatabase",
+  "url" : "jdbc:sqlite:dashjoin-demo.db",
+  "tables" : {
+    "REQUESTS" : {
+      "instanceLayout" : {
+        "widget" : "page",
+        "children" : [ {
+          "display" : "$now()",
+          "widget" : "display"
+        } ]
+      }
+    }
+  }
+}
+
+TITLE: display widget on table page
+DESCRIPTION: shows how a display widget is added on a table page
+FILE: model/dj-database/dj%2Fsqlite.json
+LANGUAGE: json
+CODE: {
+  "name" : "sqlite",
+  "ID" : "dj/sqlite",
+  "djClassName" : "org.dashjoin.service.SQLDatabase",
+  "url" : "jdbc:sqlite:dashjoin-demo.db",
+  "tables" : {
+    "REQUESTS" : {
+      "tableLayout" : {
+        "widget" : "page",
+        "children" : [ {
+          "display" : "$now()",
+          "widget" : "display"
+        } ]
+      }
+    }
+  }
+}
+
+TITLE: card widget
+DESCRIPTION: The card widget shows its children within a card
+LANGUAGE: json
+CODE: {
+  "widget" : "card"
+}
+
+TITLE: container widget for authenticated role
+DESCRIPTION: Provides a logical container for its children. This example displays children only if the user in the the role 'authenticated'
+LANGUAGE: json
+CODE: {
+  "roles" : [ "authenticated" ],
+  "widget" : "container"
+}
+
+TITLE: container widget conditionally showing contents
+DESCRIPTION: Provides a logical container for its children. This example displays children only if the jsonata expression is true
+LANGUAGE: json
+CODE: {
+  "if" : "email = 'admin@localhost'",
+  "widget" : "container"
+}
+
+TITLE: container widget showing contents for each value
+DESCRIPTION: Provides a logical container for its children. This example shows the child for each value of the foreach expression
+LANGUAGE: json
+CODE: {
+  "foreach" : "[1..5]",
+  "widget" : "container",
+  "children" : [ {
+    "display" : "value",
+    "widget" : "display"
+  } ]
+}
+
+TITLE: expansion widget shows children in an expansion panel
+DESCRIPTION: Provides a logical container for its children and shows them in an expansion panel
+LANGUAGE: json
+CODE: {
+  "text" : "Open Me",
+  "widget" : "expansion"
+}
+
+TITLE: stepper widget displays its children as a wizard
+DESCRIPTION: allows stepping through its children. It displays the step number and title along with the child at the current step position
+LANGUAGE: json
+CODE: {
+  "widget" : "stepper",
+  "children" : [ {
+    "title" : "One",
+    "text" : "Next",
+    "print" : "$stepForward()",
+    "widget" : "button"
+  }, {
+    "text" : "Back",
+    "title" : "Two",
+    "print" : "$stepBack()",
+    "widget" : "button"
+  } ]
+}
+
+TITLE: tabs widget displays its children as tabs
+DESCRIPTION: displays its children in a tab container which allows selecting the current tab on top
+LANGUAGE: json
+CODE: {
+  "widget" : "tabs",
+  "children" : [ {
+    "title" : "First",
+    "widget" : "text"
+  } ]
+}
+
+TITLE: button widget
+DESCRIPTION: shows a button to trigger an action with an optional set of inputs. This example prints the contents of the form input
+LANGUAGE: json
+CODE: {
+  "widget" : "button",
+  "print" : "form.name",
+  "schema" : {
+    "type" : "object",
+    "properties" : {
+      "name" : {
+        "widget" : "string"
+      }
+    }
+  }
+}
+
+TITLE: create widget
+DESCRIPTION: Shows a form on the database table page to create a new database record
+LANGUAGE: json
+CODE: {
+  "name" : "sqlite",
+  "ID" : "dj/sqlite",
+  "djClassName" : "org.dashjoin.service.SQLDatabase",
+  "url" : "jdbc:sqlite:dashjoin-demo.db",
+  "tables" : {
+    "REQUESTS" : {
+      "tableLayout" : {
+        "widget" : "page",
+        "children" : [ {
+          "widget" : "create",
+          "schema" : {
+            "type" : "object",
+            "properties" : {
+              "ID" : {
+                "ID" : "dj/sqlite/REQUESTS/ID",
+                "parent" : "dj/sqlite/REQUESTS",
+                "dbType" : "INTEGER",
+                "type" : "number",
+                "pkpos" : 0,
+                "createOnly" : true
+              }
+            }
+          }
+        } ]
+      }
+    }
+  }
+}
+
+TITLE: edit widget
+DESCRIPTION: Shows a form on the instance page to edit or delete the instance
+LANGUAGE: json
+CODE: {
+  "name" : "sqlite",
+  "ID" : "dj/sqlite",
+  "djClassName" : "org.dashjoin.service.SQLDatabase",
+  "url" : "jdbc:sqlite:dashjoin-demo.db",
+  "tables" : {
+    "REQUESTS" : {
+      "instanceLayout" : {
+        "widget" : "page",
+        "children" : [ {
+          "widget" : "edit",
+          "schema" : {
+            "type" : "object",
+            "properties" : {
+              "ID" : {
+                "ID" : "dj/sqlite/REQUESTS/ID",
+                "parent" : "dj/sqlite/REQUESTS",
+                "dbType" : "INTEGER",
+                "type" : "number",
+                "pkpos" : 0,
+                "createOnly" : true,
+                "size" : 6
+              }
+            }
+          }
+        } ]
+      }
+    }
+  }
+}
+
+TITLE: variable widget
+DESCRIPTION: Shows a form that sets session variables. This example sets the variable 'field'
+LANGUAGE: json
+CODE: {
+  "widget" : "variable",
+  "schema" : {
+    "type" : "object",
+    "properties" : {
+      "field" : {
+        "widget" : "number"
+      }
+    }
+  }
+}
+
+TITLE: action table
+DESCRIPTION: Visualizes 'expression' as a table. The 'properties' field contains an object where the keys are button labels and the values contain actions to be performed when the button is pressed. The action expression gets the context passed which includes the selected objects in the 'selected' field
+LANGUAGE: json
+CODE: {
+  "expression" : "$all('sqlite', 'REQUESTS')",
+  "properties" : {
+    "print" : "selected.$echo($)"
+  },
+  "widget" : "actionTable"
+}
+
+TITLE: aichat widget
+DESCRIPTION: chat widget that allows you to react to user inputs and file uploads. this example answers (without AI) by simply repeating what the user asks.
+LANGUAGE: json
+CODE: {
+  "onChat" : "$append(messages, [{'role':'user', 'content': query}, {'role':'assistant', 'content': 'you said: ' & query}])",
+  "widget" : "aichat"
+}
+
+TITLE: aichat widget
+DESCRIPTION: chat widget that allows you to react to user inputs and file uploads. this example chats with OpenAI's gpt-4o-mini model. The API key must be provided using the 'openai' credentials in the function catalog. The onChat callback passes messages (the chat history) and the new user query to the $chat function. The widget is configured using 'expression'. This expression specifies the initial messages - in this case the system message containing the system prompt
+LANGUAGE: json
+CODE: {
+  "onChat" : "/* called when a new question is entered in the chat */\n$chat('https://api.openai.com/v1/chat/completions', query, messages, [], {'model':'gpt-4o-mini'}, {'Authorization': 'openai', 'dj-timeout-seconds': 60})",
+  "expression" : "/* initial chat state with system prompt in messages */\n{'messages': [{'role': 'system', 'content': 'always answer in a funny way'}]}",
+  "widget" : "aichat"
+}
+
+TITLE: analytics widget
+DESCRIPTION: displays the results of a SQL query as a chart or table. Allows placing filters on the widget that the user can set when viewing the widget. The database, table, columns, and filter fields determine the SQL query: in this case, it is 'select user, count(ID) from REQUESTS where submitted >= ?' on the database 'sqlite'. Possible filter input widgets are: text, slider, switch, date, select, and selectmultiple.
+LANGUAGE: json
+CODE: {
+  "columns" : [ {
+    "name" : "user",
+    "aggregation" : "GROUP_BY"
+  }, {
+    "name" : "ID",
+    "aggregation" : "COUNT"
+  } ],
+  "filter" : [ {
+    "name" : "submitted",
+    "operator" : ">=",
+    "input" : "date"
+  } ],
+  "database" : "sqlite",
+  "table" : "REQUESTS",
+  "chart" : "bar",
+  "widget" : "analytics"
+}
+
+TITLE: chart widget
+DESCRIPTION: displays a chart based on a query or expression. the first column is used as labels for the X-axis. The second column holds the Y-Values. This example shows the results of the 'group' query from the query catalog run on the northwind database. The chart is a bar chart.
+LANGUAGE: json
+CODE: {
+  "database" : "northwind",
+  "query" : "group",
+  "chart" : "bar",
+  "widget" : "chart"
+}
+
+TITLE: chart widget
+DESCRIPTION: displays a chart based on a query or expression. the first column is used as labels for the X-axis. The second column holds the Y-Values. This example uses a JSONata expression to compute a table using two columns in order to display it as a line chart.
+LANGUAGE: json
+CODE: {
+  "chart" : "line",
+  "expression" : "[{'name':'joe', 'age':11}, {'name':'jane', 'age': 22}]",
+  "arguments" : "",
+  "widget" : "chart"
+}
+
+TITLE: datagrid widget
+DESCRIPTION: Displays the result of a JSONata expression as an editable table. We have callbacks ondelete (context 'id' contains the primary key of the row to be deleted), onchange (updatedRow contains the new value of the row), and oncreate (no context is given - in this example, the code computes a new unique primary key by running select max(id) from table)
+LANGUAGE: json
+CODE: {
+  "widget" : "datagrid",
+  "expression" : "$all('northwind', 'EMPLOYEES')",
+  "onchange" : "$update('northwind', 'EMPLOYEES', id, updatedRow)",
+  "ondelete" : "$delete('northwind', 'EMPLOYEES', id)",
+  "oncreate" : "$create('northwind', 'EMPLOYEES', {'EMPLOYEE_ID': $adHocQuery('northwind', 'select max(EMPLOYEE_ID)+1 as X from EMPLOYEES').X, 'LAST_NAME': ' ', 'FIRST_NAME': ' '})",
+  "idColumn" : "EMPLOYEE_ID"
+}
+
+TITLE: diagram widget
+DESCRIPTION: displays a boxes and lines diagram where each box represents a database record. The expression 'nodes' computes the boxes. The fields database, table, and id denote the database record (in the example an EMPLOYEE). Optionally, you can specify the box label (data.label) and the box position (position.x and position.y)
+LANGUAGE: json
+CODE: {
+  "nodes" : "$all('northwind', 'EMPLOYEES').{'database': 'northwind', 'table': 'EMPLOYEES', 'id': EMPLOYEE_ID, 'data': {'label': LAST_NAME}}",
+  "edges" : "$all('northwind', 'EMPLOYEES').{'source': EMPLOYEE_ID, 'target': REPORTS_TO}",
+  "widget" : "diagram"
+}
+
+TITLE: edit related widget
+DESCRIPTION: Allows editing related records of a database record. In this example, the order instance page allows editing all the order details directly. The link between the tables is established via the 'prop' field, which contains the column ID of the foreign key
+LANGUAGE: json
+CODE: {
+  "ID" : "dj/northwind",
+  "name" : "northwind",
+  "djClassName" : "org.dashjoin.service.SQLDatabase",
+  "url" : "jdbc:h2:mem:northwind",
+  "tables" : {
+    "ORDERS" : {
+      "instanceLayout" : {
+        "widget" : "page",
+        "children" : [ {
+          "columns" : [ "ORDER_ID", "PRODUCT_ID", "UNIT_PRICE", "QUANTITY", "DISCOUNT" ],
+          "prop" : "dj/northwind/ORDER_DETAILS/ORDER_ID",
+          "widget" : "editRelated"
+        } ]
+      }
+    }
+  }
+}
+
+TITLE: graph widget
+DESCRIPTION: display a directed labelled graph showing the result of an OpenCypher query
+LANGUAGE: json
+CODE: {
+  "nodes" : "$adHocQueryGraph('northwind', 'match p=(x:EMPLOYEES)-[:REPORTS_TO]->(y) return p').p",
+  "widget" : "graph"
+}
+
+TITLE: graph widget
+DESCRIPTION: display a directed labelled graph showing the nodes specified by a JSONata expression. Initially, this graph has no edges
+LANGUAGE: json
+CODE: {
+  "nodes" : "$all('northwind', 'EMPLOYEES').EMPLOYEE_ID.{  'database': 'northwind',  'table': 'EMPLOYEES',  'pk': [$]}",
+  "widget" : "graph"
+}
+
+TITLE: html widget
+DESCRIPTION: Allows you to specify HTML. The context expression can be used to inject dynamic content into the HTML via the template ${context}. You can also provide JavaScript functions that can be called from your HTML code (e.g. function 'go')
+LANGUAGE: json
+CODE: {
+  "title" : "HTML Widgets",
+  "html" : "<html lang=\"en\"><style>.card {padding:2em;background:#fff;border-radius:1em;box-shadow:0 4px 12px rgba(0,0,0,.1);text-align:center}</style><body><div class=\"card\"><h1>Hello 👋</h1><p><a href='javascript:go()'>${context.x}</a></p></div></body></html>",
+  "context" : "{'x': 'Hello World!'}",
+  "script" : "function go(){alert('Hi')}",
+  "widget" : "html"
+}
+
+TITLE: icon widget
+DESCRIPTION: shows a material icon with an optional link (href) and tooltip text
+LANGUAGE: json
+CODE: {
+  "icon" : "verified_user",
+  "href" : "/page/Home",
+  "tooltip" : "tooltip text",
+  "widget" : "icon"
+}
+
+TITLE: links widget
+DESCRIPTION: on an instance page, shows links to all other related records and the corresponding table page
+LANGUAGE: json
+CODE: {
+  "widget" : "links"
+}
+
+TITLE: map widget showing a list of addresses
+DESCRIPTION: The address can be as simple as 'jp' for Japan, or it can be a specific street address. The widget chooses the appropriate center and zoom level automatically
+LANGUAGE: json
+CODE: {
+  "display" : "['paris', 'berlin']",
+  "widget" : "map"
+}
+
+TITLE: map widget showing a specific address with a popup linking to a record
+DESCRIPTION: Using the points field, you can specify a popup which display the data like the display widget. In this case, we show a link to a database record
+LANGUAGE: json
+CODE: {
+  "display" : "{'points': [{'address': 'London','popup': {'database': 'northwind','table': 'CUSTOMERS','pk': [ 'AROUT' ]}}]}",
+  "widget" : "map"
+}
+
+TITLE: markdown widget
+DESCRIPTION: shows markdown that can be fed dynamic content via the 'context' JSONata expression
+LANGUAGE: json
+CODE: {
+  "markdown" : "# Hello ${user} ${context}",
+  "context" : "42",
+  "widget" : "markdown"
+}
+
+TITLE: mdxeditor widget
+DESCRIPTION: a WYSIWYG editor that can be extended with custom menus. 'properties' defines the actions, 'expression' defines the menu structure
+LANGUAGE: json
+CODE: {
+  "markdown" : "# Hello ${user} ${context}",
+  "context" : "42",
+  "properties" : {
+    "alert" : "$alert('selection: ' & selection & '. markdown: ' & markdown)",
+    "log" : "$log($)",
+    "sleep" : "($progress({'message': 'working'});$sleep(1000))"
+  },
+  "expression" : "{'menu': [{'type': 'select','title': 'tooltip','label': 'longer operation','value': 'sleep','items': [{}]},{'type': 'select','title': 'tooltip','label': 'Label','items': [{'label': 'alert popup','value': 'alert'},{'label': 'doc to console','value': 'log'}]}]}",
+  "widget" : "mdxeditor"
+}
+
+TITLE: table widget
+DESCRIPTION: shows the result of a query. this example uses mode auto which chooses a mobile friendly table layout when viewed on small devices
+LANGUAGE: json
+CODE: {
+  "mode" : "auto",
+  "database" : "northwind",
+  "query" : "group",
+  "widget" : "table"
+}
+
+TITLE: table widget
+DESCRIPTION: shows the result of a JSONata expression as a table
+LANGUAGE: json
+CODE: {
+  "expression" : "[{'x':1}]",
+  "widget" : "table"
+}
+
+TITLE: text widget
+DESCRIPTION: shows a simple static text
+LANGUAGE: json
+CODE: {
+  "text" : "Hello World!",
+  "widget" : "text"
+}
+
+TITLE: text widget
+DESCRIPTION: shows a hyperlink with an icon in front
+LANGUAGE: json
+CODE: {
+  "href" : "/page/Home",
+  "text" : "Homepage",
+  "icon" : "home",
+  "widget" : "text"
+}
+
+TITLE: tree widget
+DESCRIPTION: shows a tree using a recursive query 'orgchart'. The query must have a parameter 'node' and is evaluated every time a node is opened in the tree view
+LANGUAGE: json
+CODE: {
+  "widget" : "tree",
+  "query" : "orgchart",
+  "database" : "northwind"
+}
+
+TITLE: tree widget
+DESCRIPTION: shows a static tree that is suitable for a side navigation. The tree nodes can provide an icon, text, href, and nested child nodes
+LANGUAGE: json
+CODE: {
+  "expression" : "[{'data': {'text': 'Menu','icon': 'person'},'children': [{'text': 'Info', 'icon': 'info', 'href': '/page/Info'}, {'text': 'Home', 'icon': 'home', 'href': '/page/Info'}]}]",
+  "widget" : "tree"
+}
+
+TITLE: uploadfile widget
+DESCRIPTION: Allows uploading files to the upload directory. Note that WebDAV must be turned on using the WEBDEV_ENABLED environment variable
+LANGUAGE: json
+CODE: {
+  "widget" : "uploadfile"
+}
+
+TITLE: boolean input
+DESCRIPTION: Boolean inputs show a on/off toggle. In this example, the toggle has the label 'Opt in'
+LANGUAGE: json
+CODE: {
+  "widget" : "boolean",
+  "title" : "Opt in"
+}
+
+TITLE: string input
+DESCRIPTION: String inputs show a text input
+LANGUAGE: json
+CODE: {
+  "widget" : "string"
+}
+
+TITLE: number input
+DESCRIPTION: Number inputs show a text input that is restricted to entering numbers
+LANGUAGE: json
+CODE: {
+  "widget" : "number"
+}
+
+TITLE: autocomplete input
+DESCRIPTION: Autocomplete inputs show a text input that autocompletes to the options specified in the jsonata expression
+LANGUAGE: json
+CODE: {
+  "widget" : "auto complete",
+  "options" : "['one', 'two', 'three']"
+}
+
+TITLE: select input
+DESCRIPTION: Select inputs show a drop-down selection with the options specified in the jsonata expression
+LANGUAGE: json
+CODE: {
+  "widget" : "select",
+  "options" : "['one', 'two', 'three']"
+}
+
+TITLE: multi select input
+DESCRIPTION: Multi Select inputs show a drop-down selection with the options specified in the jsonata expression. Multiple options can be selected yielding an array of values
+LANGUAGE: json
+CODE: {
+  "widget" : "multi select",
+  "options" : "['one', 'two', 'three']"
+}
+
+TITLE: key value input
+DESCRIPTION: key value inputs display a two column table to enter keys and values. Returns a JSON object
+LANGUAGE: json
+CODE: {
+  "widget" : "key value"
+}
+
+TITLE: password input
+DESCRIPTION: Shows a password input field
+LANGUAGE: json
+CODE: {
+  "widget" : "password"
+}
+
+TITLE: textarea input
+DESCRIPTION: Shows a multi line input field (textarea)
+LANGUAGE: json
+CODE: {
+  "widget" : "textarea"
+}
+
+TITLE: date input
+DESCRIPTION: Shows a date picker input. Returns a YYYY-MM-DD string with the selected date
+LANGUAGE: json
+CODE: {
+  "widget" : "date"
+}
+
+TITLE: time input
+DESCRIPTION: Shows a time picker input. Returns a ISO 8601 date string with the current day and the selected time
+LANGUAGE: json
+CODE: {
+  "widget" : "time"
+}
+
+TITLE: datetime input
+DESCRIPTION: Shows a datetime picker input
+LANGUAGE: json
+CODE: {
+  "widget" : "datetime"
+}
+
+TITLE: file input
+DESCRIPTION: Allows uploading a file. returns the file contents
+LANGUAGE: json
+CODE: {
+  "widget" : "file"
+}
+
+TITLE: binary file input
+DESCRIPTION: Allows uploading a file. returns the file contents as a base 64 encoded data URL
+LANGUAGE: json
+CODE: {
+  "widget" : " binary file"
+}
+
+TITLE: file with metadata input
+DESCRIPTION: Allows uploading a file. returns an object with name, lastModified, size, type, and value (containing the file contents)
+LANGUAGE: json
+CODE: {
+  "widget" : "file with metadata"
+}
+
+TITLE: binary file with metadata input
+DESCRIPTION: Allows uploading a file. returns an object with name, lastModified, size, type, and value (containing the file contents as a base 64 encoded data URL)
+LANGUAGE: json
+CODE: {
+  "widget" : " binary file with metadata"
+}
+
+TITLE: voice input
+DESCRIPTION: Shows a text input field with a voice option
+LANGUAGE: json
+CODE: {
+  "widget" : " voice"
+}
+
+TITLE: qrcode input
+DESCRIPTION: Allows scanning a QR Code into the form field
+LANGUAGE: json
+CODE: {
+  "widget" : " qrcode"
+}
+
+TITLE: query catalog
+DESCRIPTION: a query on database 'dj/northwind' called 'group', executable for the 'authenticated' role
+FILE: model/dj-query-catalog/group.json
+LANGUAGE: json
+CODE: {
+  "ID" : "group",
+  "database" : "dj/northwind",
+  "query" : "SELECT CUSTOMERS.COUNTRY, COUNT(*) AS \"Number of Customers\" FROM CUSTOMERS GROUP BY CUSTOMERS.COUNTRY",
+  "roles" : [ "authenticated" ],
+  "type" : "read"
+}
+
+TITLE: query catalog
+DESCRIPTION: a query on database 'dj/northwind' called 'list'. Parameters limit and offset can be passed to the query
+FILE: model/dj-query-catalog/list.json
+LANGUAGE: json
+CODE: {
+  "ID" : "list",
+  "database" : "dj/northwind",
+  "query" : "select * from CATEGORIES limit ${limit} offset ${offset}",
+  "type" : "read",
+  "arguments" : {
+    "limit" : {
+      "type" : "number",
+      "sample" : "5"
+    },
+    "offset" : {
+      "type" : "number",
+      "sample" : "0"
+    }
+  }
+}
+
+TITLE: database definition
+DESCRIPTION: postgres database connection information with encrypted password
+FILE: model/dj-database/dj%2Fpostgres.json
+LANGUAGE: json
+CODE: {
+  "name" : "postgres",
+  "djClassName" : "org.dashjoin.service.SQLDatabase",
+  "username" : "postgres",
+  "url" : "jdbc:postgresql://localhost:5432/postgres",
+  "ID" : "dj/postgres",
+  "password" : "DJ1#\b/gbzX8DDZa1lVaiLat0HdX9cDST2KHJk"
+}
+
+TITLE: Function catalog: Invoke
+DESCRIPTION: Function that adds two numbers passed in the argument object. It can be called via $call('add') or via REST
+FILE: model/dj-function/add.json
+LANGUAGE: json
+CODE: {
+  "ID" : "add",
+  "djClassName" : "org.dashjoin.function.Invoke",
+  "expression" : "{'result': x+y}",
+  "roles" : [ "authenticated" ],
+  "type" : "read"
+}
+
+TITLE: Function catalog: RestJson
+DESCRIPTION: Function that calls a web service. The fields of the function argument are used to construct the URL via from string template
+FILE: model/dj-function/address.json
+LANGUAGE: json
+CODE: {
+  "djClassName" : "org.dashjoin.function.RestJson",
+  "url" : "https://api.geoapify.com/v1/geocode/search?street=${street}&postcode=${postcode}&city=${city}&country=${country}&apiKey=...",
+  "method" : "GET",
+  "contentType" : "application/json",
+  "ID" : "address"
+}
+
+TITLE: Function catalog: Credentials
+DESCRIPTION: Encrypted credentials for OpenAI to be used in $curl and $chat functions
+FILE: model/dj-function/openai.json
+LANGUAGE: json
+CODE: {
+  "ID" : "openai",
+  "djClassName" : "org.dashjoin.function.Credentials",
+  "username" : "Authorization",
+  "password" : "DJ1#\b7Zw3EGtmVKaDuwwOtwXfWDG1y+awbon7WNQp9NmJ6EgUXEpYUMC8O7zRUw2kSnDxyATO0R3ke3NxjaT9zCwYyDGS5VDgYt/L",
+  "apiKey" : true
+}
+
+TITLE: Function catalog: ETL
+DESCRIPTION: Extract load transform function. Loads the result of 'expression' into the database sqlite. The data is mapped using 'mappings'
+FILE: model/dj-function/misp.json
+LANGUAGE: json
+CODE: {
+  "djClassName" : "com.dashjoin.function.ETL",
+  "database" : "sqlite",
+  "ID" : "misp",
+  "type" : "write",
+  "oldData" : "Delete All",
+  "createSchema" : true,
+  "mappings" : {
+    "MISP_Event" : {
+      "sourceTable" : "table",
+      "extractColumn" : null,
+      "extractKey" : null,
+      "pk" : "uuid",
+      "rowMapping" : null,
+      "rowFilter" : null
+    }
+  },
+  "expressions" : {
+    "expression" : "$openJson(\"https://www.circl.lu/doc/misp/feed-osint/0b988513-9535-42f0-9ebc-5d6aec2e1c79.json\").Event.Attribute"
+  }
+}
+
+TITLE: Function catalog: Email
+DESCRIPTION: Configures an SMTP server
+FILE: model/dj-function/email.json
+LANGUAGE: json
+CODE: {
+  "djClassName" : "org.dashjoin.function.Email",
+  "ID" : "email",
+  "type" : "write",
+  "properties" : {
+    "mail.smtp.port" : "25"
+  },
+  "username" : "user",
+  "password" : "DJ1#\btW06MCaBJjnRvgvGgTaTpQ=="
+}
+
+TITLE: confirm
+DESCRIPTION: displays a confirmation dialog and returns true if the user clicked yes
+LANGUAGE: jsonata
+CODE: $confirm('Are you sure') ? 'you clicked yes'
+
+TITLE: setVariable
+DESCRIPTION: Sets the browser session variable x to 1. The new value can be read in other places via variable.x
+LANGUAGE: jsonata
+CODE: $setVariable('x', 1)
+
+TITLE: prompt
+DESCRIPTION: Prompts the user for an input. Returns the input or undefined if the prompt is cancelled
+LANGUAGE: jsonata
+CODE: (
+  $name := $prompt('What is your name?');
+  $name ? ('Hello ' & $name);
+)
+
+TITLE: alert
+DESCRIPTION: Shows a model popup with a message
+LANGUAGE: jsonata
+CODE: $alert('FYI')
+
+TITLE: dialog
+DESCRIPTION: Shows a dialog to enter 'to' and 'text'. If the user submits via 'ok', an object with these fields is returned
+LANGUAGE: jsonata
+CODE: $dialog({
+  'title':'Send Message', 
+  'message':'Please enter your message', 
+  'inputs':['to', 'content'], 
+  'buttons':[{'label':'ok', 'type':'submit'},'cancel'], 
+  'options':{'alert':'info'}
+})
+
+TITLE: notify
+DESCRIPTION: Shows a message in the snackbar at the bottom of the screen
+LANGUAGE: jsonata
+CODE: $notify('Hi from the snackbar!')
+
+TITLE: refresh
+DESCRIPTION: refreshes the screen just (just like hitting the refresh icon in the toolbar)
+LANGUAGE: jsonata
+CODE: $refresh()
+
+TITLE: reload
+DESCRIPTION: reloads the browser page
+LANGUAGE: jsonata
+CODE: $reload()
+
+TITLE: navigate
+DESCRIPTION: points the browser to the URL
+LANGUAGE: jsonata
+CODE: $navigate('http://dashjoin.com')
+
+TITLE: navigate
+DESCRIPTION: scrolls the page to the DOM element with the given id. In this case, we scroll to the widget that has the title 'Top'
+LANGUAGE: jsonata
+CODE: $navigate({'id': 'dj-Top'})
+
+TITLE: clearCache
+DESCRIPTION: clears the HTTP cache - can be used in conjunction with expressions that trigger side effects on the backend
+LANGUAGE: jsonata
+CODE: $clearCache()
+
+TITLE: progress
+DESCRIPTION: shows a progress indicator with the message 'working...' for 1 second until the expression execution completes
+LANGUAGE: jsonata
+CODE: (
+  $progress({'message':'working...'});
+  $sleep(1000)
+)
+
+TITLE: sleep
+DESCRIPTION: sleeps for 1000 milliseconds
+LANGUAGE: jsonata
+CODE: $sleep(1000)
+
+TITLE: speak
+DESCRIPTION: performs a text to english speech for 'Test'
+LANGUAGE: jsonata
+CODE: $speak('Test', 'en')
+
+TITLE: stopSpeech
+DESCRIPTION: stops any text to speech that's in progress
+LANGUAGE: jsonata
+CODE: $stopSpeech()
+
+TITLE: translate
+DESCRIPTION: Lookup the text in the translation file and return the match for the current locale
+LANGUAGE: jsonata
+CODE: $translate('ra.action.select_all_button')
+
