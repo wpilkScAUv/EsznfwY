@@ -1,0 +1,37 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "^http://localhost"
+    },
+    {
+      "pattern": "^http://pgp.mit.edu:11371"
+    },
+    {
+      "pattern": "^https://github.com/apache/skywalking/blob/master/docs/en/changes/changes-x.y.z.md$"
+    },
+    {
+      "pattern": "^https://dist.apache.org/repos/dist/dev/skywalking/x.y.z$"
+    },
+    {
+      "pattern": "^https://twitter.com*"
+    },
+    {
+      "pattern": "^http://people.apache.org/committer-index.html"
+    },
+    {
+      "pattern": "^http://www.gnu.org/software/libc/documentation.html"
+    },
+    {
+      "pattern": "^https://x.com/AsfSkyWalking"
+    }
+  ],
+  "timeout": "10s",
+  "retryOn429": true,
+  "retryCount": 10,
+  "fallbackRetryDelay": "1000s",
+  "aliveStatusCodes": [
+    200,
+    401,
+    403
+  ]
+}
