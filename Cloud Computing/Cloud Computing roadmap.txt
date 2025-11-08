@@ -1,0 +1,55 @@
+1.  AWS Cloud Practitioner : 
+
+-> UDEMY playlist : Stephane Mareek
+https://www.youtube.com/watch?v=kvP_7jT-ImY&list=PLt1SIbA8guuvfvUDVLpJepmbnYpOfYCIB
+
+->  UDEMY playlist : Neal Davis
+https://www.youtube.com/watch?v=SOTamWNgDKc&t=2615s
+
+-> English CCP small Tutorial :
+https://www.youtube.com/watch?v=3hLmDS179YE
+
+-> AWS CCP exam practice questions :
+https://www.youtube.com/watch?v=IvvD13aNO68&list=PL_0RK_1F4sTDNZOzu4aQ0h7RBA6tPwuUj
+
+
+
+2. AWS Certified SysOps Administrator : Associate
+
+-> Hindi tutorial playlist : 
+https://www.youtube.com/watch?v=weFUVTxXaCE&list=PLUGuCqrhcwZwD7zG1k0gZhjuIX4SqrNlA
+
+-> English One video : Free code camp 
+https://www.youtube.com/watch?v=KX_AfyrhlgQ
+
+-> AWS exam practice questions :
+https://www.youtube.com/watch?v=k6Ospj-xRFs&list=PLyABYqulvUwaxSTifXmNiMQyTqE_OMPW1
+
+
+
+3. AWS Certified Developer : Associate
+
+-> English One video : Free code camp 
+https://www.youtube.com/watch?v=RrKRN9zRBWs
+
+-> English Tutorial playlist :
+https://www.youtube.com/watch?v=kPAXmo6xv9Q&list=PLBfufR7vyJJ5WuCNg2em7SgdAfjduqnNq
+
+-> AWS exam practice questions :
+https://www.youtube.com/watch?v=6u3RADFhsbA&list=PLzde74P_a04cpN1pEerB0szRAbn38JKWT
+
+
+
+4. AWS Certified Solutions Architect  : Associate
+
+-> Hindi Playlist : 
+https://www.youtube.com/watch?v=-xlIq4xyszA&list=PLHgTaDEssGKaEUQ1rLnS94s-YmkEZbNSb
+
+-> English One video : Free code camp 
+https://www.youtube.com/watch?v=Ia-UEYYR44s
+
+-> English Tutorial playlist :
+https://www.youtube.com/watch?v=3C0ibYqRrHM&list=PLiH9_MU-6RjI9gdFqmvUfKRfw_zRxIb6o  (skip first video)
+
+-> AWS exam practice questions :
+https://www.youtube.com/watch?v=5OBnnZEYJXc
